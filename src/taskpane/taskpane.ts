@@ -52,6 +52,6 @@ async function runOnce() {
 export async function run() {
   await runOnce();
   // 10 minutes, longer than token expiration
-  // weird...here it does trigger the error
+  // weird...here it does not trigger the error
   setTimeout(() => runOnce(), 10 * 60 * 1000);
 }
