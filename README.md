@@ -1,3 +1,5 @@
+Default project created with `yo office`.
+
 Setup:
 
 1. Clone the repo locally
